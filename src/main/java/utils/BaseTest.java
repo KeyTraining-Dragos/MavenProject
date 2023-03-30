@@ -1,5 +1,7 @@
 package utils;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -18,6 +20,7 @@ public WebDriver driver;
 		//driver =  new ChromeDriver(chOpt);
 		driver =  new FirefoxDriver();
 		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://keybooks.ro/");
 	//	driver.get("https://the-internet.herokuapp.com/javascript_alerts");
 	}
