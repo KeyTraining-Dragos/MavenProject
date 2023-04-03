@@ -15,6 +15,7 @@ public class MenuPage {
 	//locatori
 	public By loginLink = By.linkText("Login");
 	public By contactsLink = By.linkText("CONTACTS");
+	public By shopLink = By.linkText("BOOKS");
 	//driver.findElement(By.linkText("Login")).click();
 	// indentificare element                  + actiune pe element
 	//metoda findElemenet + locator (By.linkText("Login"))
