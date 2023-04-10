@@ -27,6 +27,8 @@ public class MenuPage {
 	public By logoutButton = By.cssSelector("li[class='menu_user_logout']>a");
 	public By blogLink = By.linkText("BLOG");
 	public By postFormatsLink = By.linkText("Post Formats");
+	public By searchIcon = By.cssSelector("button[class*='search_submit']");
+	public By searchField =  By.cssSelector("input[class='search_field']");
 	
 	public void hoverElement(By locator) {
 		WebElement element =  driver.findElement(locator);

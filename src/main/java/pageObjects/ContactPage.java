@@ -16,6 +16,8 @@ public class ContactPage {
 	public By zoomOutButton = By.cssSelector("button[title = 'Zoom out']");
 	public By iframe = By.tagName("iframe");
 	public By outsideMap = By.partialLinkText("map");
+	public By nameFiled =  By.cssSelector("input[name='your-name']");
+
 	
 	
 	public void zoomMap(By locator) {
