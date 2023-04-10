@@ -21,6 +21,9 @@ public class ShopPage {
 	public By sliderInitialPosition = By.cssSelector("span[style='left: 0%;']");
 	public By sliderFinalPosition = By.cssSelector("span[style='left: 100%;']");
 	
+	public By addToCartButton = By.linkText("ADD TO CART");
+	
+	
 	
 	public void dragAndDrop(By locator, int x, int y) {
 		WebElement element = driver.findElement(locator);
