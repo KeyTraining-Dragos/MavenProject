@@ -4,9 +4,9 @@ import java.sql.Connection;
 
 public class TestDB {
 	
-	public static String URL = "jdbc:mysql://keytraining-demo.c050jeowbe1q.eu-central-1.rds.amazonaws.com:3306/KeyTraining";
-	public static String USER = "demouser";
-	public static String PASS = "demouser";
+	public static String URL = "";
+	public static String USER = "";
+	public static String PASS = "";
 	
 	public static void main(String[] args) {
 		
